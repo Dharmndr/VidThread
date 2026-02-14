@@ -1,7 +1,7 @@
 #  VidThread – Backend
 
-VidThread is a scalable backend service for a video sharing and social interaction platform.  
-It provides secure authentication, media uploads, pagination, aggregation pipelines, and well-structured APIs for handling users, videos, comments, and more.
+VidThread is a scalable backend service for a video and social content sharing platform.  
+It provides secure authentication, media uploads, pagination, aggregation pipelines, and well-structured APIs for handling user interactions, comments, threaded discussions and more.
 
 Built with modern Node.js, Express.js and MongoDB.
 
@@ -119,11 +119,11 @@ CLOUDINARY_API_SECRET=xxxx
 
 ### Used for:
 
-- Channel statistics
+- Channel and user statistics
 
-- Video listings
+- Content feeds (videos & posts)  
 
-- Filtering & sorting
+- Filtering, sorting & search
 
 - Efficient large dataset handling
 
